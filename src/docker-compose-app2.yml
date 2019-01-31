@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  secured-multicontainer-appservice.externalservice:
+    image: amolenk/secured-multicontainer-appservice-externalservice:latest
+    build: ExternalService
+    ports:
+      - "80:80"

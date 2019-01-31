@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  secured-multicontainer-appservice.frontend:
+    image: amolenk/secured-multicontainer-appservice-frontend:latest
+    build: FrontEnd
+    ports:
+      - "80:80"
+
+  secured-multicontainer-appservice.backend:
+    image: amolenk/secured-multicontainer-appservice-backend:latest
+    build: BackEnd
+    ports:
+      - "8081:80"
+    environment:
+      EXTERNAL_SERVICE_URL: http://localhost:8080

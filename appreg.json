@@ -1,0 +1,86 @@
+{
+  "acceptMappedClaims": null,
+  "addIns": [],
+  "appId": "08d0ec3e-a633-4159-8ff3-b5bc5fe904b0",
+  "appPermissions": null,
+  "appRoles": [],
+  "availableToOtherTenants": false,
+  "deletionTimestamp": null,
+  "displayName": "app984316",
+  "errorUrl": null,
+  "groupMembershipClaims": null,
+  "homepage": "https://app984316.azurewebsites.net",
+  "identifierUris": [
+    "https://app984316.azurewebsites.net"
+  ],
+  "informationalUrls": {
+    "marketing": null,
+    "privacy": null,
+    "support": null,
+    "termsOfService": null
+  },
+  "isDeviceOnlyAuthSupported": null,
+  "keyCredentials": [],
+  "knownClientApplications": [],
+  "logo@odata.mediaEditLink": "directoryObjects/62dd26b0-6ed7-465a-b603-6a00eba3a91c/Microsoft.DirectoryServices.Application/logo",
+  "logoUrl": null,
+  "logoutUrl": null,
+  "mainLogo@odata.mediaEditLink": "directoryObjects/62dd26b0-6ed7-465a-b603-6a00eba3a91c/Microsoft.DirectoryServices.Application/mainLogo",
+  "oauth2AllowIdTokenImplicitFlow": true,
+  "oauth2AllowImplicitFlow": false,
+  "oauth2AllowUrlPathMatching": false,
+  "oauth2Permissions": [
+    {
+      "adminConsentDescription": "Allow the application to access app984316 on behalf of the signed-in user.",
+      "adminConsentDisplayName": "Access app984316",
+      "id": "1ad3b9c4-e57a-4839-8978-db0ed8861bb4",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "Allow the application to access app984316 on your behalf.",
+      "userConsentDisplayName": "Access app984316",
+      "value": "user_impersonation"
+    }
+  ],
+  "oauth2RequirePostResponse": false,
+  "objectId": "62dd26b0-6ed7-465a-b603-6a00eba3a91c",
+  "objectType": "Application",
+  "odata.type": "Microsoft.DirectoryServices.Application",
+  "optionalClaims": null,
+  "orgRestrictions": [],
+  "parentalControlSettings": {
+    "countriesBlockedForMinors": [],
+    "legalAgeGroupRule": "Allow"
+  },
+  "passwordCredentials": [
+    {
+      "additionalProperties": null,
+      "customKeyIdentifier": null,
+      "endDate": "2029-01-31T10:46:20.064299+00:00",
+      "keyId": "9c7c0d30-026f-4b23-a292-af91ebc33839",
+      "startDate": "2019-01-31T10:46:20.064299+00:00",
+      "value": null
+    }
+  ],
+  "publicClient": null,
+  "publisherDomain": "amolenkampgmail.onmicrosoft.com",
+  "recordConsentConditions": null,
+  "replyUrls": [
+    "https://app984316.azurewebsites.net/.auth/login/aad/callback"
+  ],
+  "requiredResourceAccess": [
+    {
+      "additionalProperties": null,
+      "resourceAccess": [
+        {
+          "additionalProperties": null,
+          "id": "311a71cc-e848-46a1-bdf8-97ff7156d8e6",
+          "type": "Scope"
+        }
+      ],
+      "resourceAppId": "00000002-0000-0000-c000-000000000000"
+    }
+  ],
+  "samlMetadataUrl": null,
+  "signInAudience": "AzureADMyOrg",
+  "tokenEncryptionKeyId": null
+}
